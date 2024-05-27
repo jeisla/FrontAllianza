@@ -1,27 +1,53 @@
 # Alianza
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.0.
+Este proyecto fue generado con Angular CLI versión 15.2.0.
 
-## Development server
+Funcionalidades
+este proyecto tiene una interfaz donde puede crear usuario listarlos en una tabla, y tiene un filtro para poder buscar de manera mas rapida 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Servidor de desarrollo
+Ejecuta ng serve para iniciar un servidor de desarrollo. Navega a http://localhost:4200/. La aplicación se recargará automáticamente si cambias alguno de los archivos fuente.
 
-## Code scaffolding
+Estructura del código
+esta seria la estrcutura de mi proyecto
+|-- src/
+|   |--app
+|   |  |-- clients/
+|   |  |   |--client-list
+|   |  |   |--new-client
+|   |-- layout/
+|   |  |   |--header
+|   |  |   |--navbar
+|   |  |-- services/
+|-- assets/
+|   |--images
+|-- favicon.ico
+|-- main.ts
+|--styles.css 
+|-- .editorconfig
+|-- .gitignore
+|-- angular.json
+|-- index.html
+|-- Karma-comf.js
+|-- package-lock.json
+|-- package.json
+|-- README.md
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Compilación
+Ejecuta ng serve para compilar el proyecto. en desarrollo.
 
-## Build
+Ejecución de pruebas unitarias
+Ejecuta ng test para ejecutar las pruebas unitarias a través de Karma.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Ejecución de pruebas end-to-end
+Ejecuta ng e2e para ejecutar las pruebas end-to-end a través de una plataforma de tu elección. Para usar este comando, primero necesitas agregar un paquete que implemente capacidades de pruebas end-to-end.
 
-## Running unit tests
+Ayuda adicional
+Para obtener más ayuda sobre Angular CLI, utiliza ng help o consulta la página de Resumen y Referencia de Comandos de Angular CLI.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
